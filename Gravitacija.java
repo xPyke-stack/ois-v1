@@ -6,6 +6,6 @@ public class Gravitacija{
         Scanner sc = new Scanner(System.in);
         int height = sc.nextInt();
 
-        System.out.printf("%.2f", gravitationalAcceleration(height));
+        System.out.printf("%.2f", calculate(height));
     }
 }
